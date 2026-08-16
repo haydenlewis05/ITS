@@ -9,6 +9,8 @@ Mia Compton (MSci Physics)
 
 ## Setup Instructions
 
+### Virtual Enviroment
+
 1. Create a new virtual enviroment from the 'enviroments.yml' file:
 
 ```
@@ -39,6 +41,24 @@ conda env update -f enviroment.yml --prune
 conda env export --from-history > enviroments.yml
 ```
 
+### Data
+
+1. The data folder can be found in the OneDrive.
+
+2. Download this and store within your local repo folder.
+
+3. This is included in the '.gitignore' and SHOULD NOT be pushed to the remote.
+
 ## Usage Instructions
 
-TBC
+### ITS
+
+This folder should be used to store all backend scripts that can be exported as packages for use throughout the project in different workflows.
+
+### notebooks
+
+This folder should be used purely for jupyter notebook related activities and should ideally utilise imports from the ITS folder.
+
+### tests
+
+This folder contains both intergration and unit test folders. The former can be utilised to test an entire workflow within the project while the later can be utilised to test specific features or scripts.
