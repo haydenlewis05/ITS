@@ -9,4 +9,3 @@ dependencies:
   - pytest
   - jupyter
   - pandas
-prefix: /opt/anaconda3/envs/ITS
