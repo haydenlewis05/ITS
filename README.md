@@ -23,7 +23,7 @@ conda env create -f enviroment.yml
 conda activate ITS
 ```
 
-3. Checking for updates in dependancies:
+3. Checking for updates in dependencies:
 
 ```
 git diff enviroment.yml
