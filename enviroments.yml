@@ -1,0 +1,12 @@
+name: ITS
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - matplotlib
+  - scipy
+  - pytest
+  - jupyter
+  - pandas
+prefix: /opt/anaconda3/envs/ITS
