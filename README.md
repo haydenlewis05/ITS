@@ -35,11 +35,7 @@ git diff enviroment.yml
 conda env update -f enviroment.yml --prune
 ```
 
-5. If you've added new dependancies and need to update 'enviroments.yml':
-
-```
-conda env export --from-history > enviroments.yml
-```
+5. If you've added new dependancies and need to update 'enviroments.yml', then please do so in your text editor/ IDE by including the name of the package installed.
 
 ### Data
 
