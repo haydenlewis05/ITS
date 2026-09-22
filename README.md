@@ -35,7 +35,7 @@ git diff enviroment.yml
 conda env update -f enviroment.yml --prune
 ```
 
-5. If you've added new dependancies and need to update 'enviroments.yml', then please do so in your text editor/ IDE by including the name of the package installed.
+5. In order to add new dependancies to your local enviroment, first open 'enviroment.yml' in you IDE, add the import to the list and save. Then run the line in step 4.
 
 ### Data
 
@@ -46,6 +46,10 @@ conda env update -f enviroment.yml --prune
 3. This is included in the '.gitignore' and SHOULD NOT be pushed to the remote.
 
 ## Usage Instructions
+
+### Data
+
+This folder should be updated from OneDrive following new data releases.
 
 ### ITS
 
